@@ -1,0 +1,256 @@
+
+.not-found
+  color #6F6F6F
+  margin-top 30px
+
+p.result
+  background #E1EEFF
+  border 1px solid #094CA5
+  padding 10px
+  font-size 15px
+  margin 25px 0 -15px
+
+.product
+  margin-top 35px
+  background white
+  box-shadow 0px 0 3px rgba(0,0,0,.3)
+
+  .img
+    margin-bottom 15px
+    box-shadow 0px -1px 3px rgba(0,0,0,.3)
+
+  .content
+    padding 0 20px
+    margin-bottom 15px
+
+  .name,.price
+    margin-bottom 0
+
+  .name
+    @extend .transition
+    text-decoration none
+    color #8A8A8A
+    font-size 25px
+
+    &:hover
+      color primary
+
+  .stock
+    float right
+    margin-top -25px
+    padding-right 10px
+
+
+  .detil
+    border-top 1px solid grey
+    padding 15px 20px
+    font-size 16px
+
+
+  .colors
+    background #EFEFEF
+    padding 7px 15px
+
+    .btn
+      border 1px solid #C3C3C3
+      background white
+      margin-right 7px
+
+      &:hover
+        color primary
+        border-color primary
+
+        span
+          color blacky
+          background #F8FF89
+          border-color #F8FF89
+
+      span
+        background grey
+        border 1px solid grey
+        padding 0 3px
+        margin-left 7px
+
+  .actions
+    border-top 1px solid grey
+    padding 15px 10px
+
+
+
+    .btn
+      @extend .transition
+      margin-left 7px
+
+    .love
+      border 1px solid red
+      background red
+      color white
+      font-size 24px
+      padding 4px 10px
+      line-height 0
+
+      &:hover
+        color red
+        background white
+
+      &.loved
+        color red
+        border 1px solid t
+        background white
+
+      i
+        vertical-align middle
+
+      span
+        font-size 14px
+        vertical-align middle
+
+    .share
+      border 1px solid green
+      color white
+      background green
+      font-size 24px
+      padding 4px 10px
+      line-height 0
+
+      &:hover
+        color green
+        background t
+
+      i
+        vertical-align middle
+        line-height 0
+
+      span
+        font-size 14px
+        vertical-align middle
+
+    .share-list
+      text-align center
+      position absolute
+      background white
+      width 130%
+      bottom 100%
+      left -10px
+      margin-bottom 13px
+      box-shadow 0 0 5px 1px rgba(0,0,0,.2)
+
+      &:after
+        content ''
+        width 0
+        height 0
+        display block
+        position absolute
+        top 100%
+        left 40%
+        border 10px solid black
+        border-color white t t t
+
+      &:before
+        content ''
+        width 0
+        height 0
+        display block
+        position absolute
+        top 100%
+        left 39%
+        border 11px solid black
+        border-color #B1B1B1 t t t
+
+      a
+        text-decoration none
+        display block
+        padding 10px 5px
+        line-height 0
+        color primary
+
+        span
+          vertical-align middle
+
+        i
+          font-size 20px
+          margin-right 7px
+          vertical-align middle
+
+        &.twitter
+          color #1DD0CB
+
+          &:hover
+            background #1DD0CB
+
+        &:hover
+          background primary
+          color white
+
+
+
+    .buy
+      border 1px solid primary
+      background primary
+      color white
+      margin-right 10px
+
+      &:hover
+        color primary
+        background white
+
+  .comment-wrapper
+    border-top 1px solid grey
+    padding 15px 20px
+
+    h4
+      margin-bottom 20px
+      margin-left 10px
+
+  .comment
+    margin-bottom 15px
+
+    .avatar
+      background #C1C1C1
+      width 60px
+      height 60px
+      border-radius 50%
+
+    .name
+      color #8a8a8a !important
+      font-size 15px
+
+    .content
+      position relative
+      padding 0
+
+    .delete
+      position absolute
+      right 0
+      top -27px
+      background none
+      border 0
+
+
+  .comment-editor
+    padding 5px 20px
+
+    textarea
+      border 1px solid grey
+      padding 7px
+      display inline-block
+      width 100%
+
+      &:focus
+        border-color primary
+
+    .btn
+      @extend .transition
+      border 1px solid primary
+      width 100%
+      background primary
+      color white
+      padding 10px 0
+
+      &:hover
+        background white
+        color primary
+
+  &.detil-page
+    margin-bottom 50px
+    padding-bottom 35px
