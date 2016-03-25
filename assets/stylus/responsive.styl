@@ -1,0 +1,66 @@
+
+// ======= LIST OF CONTENT ============
+// 1. LARGE DESKTOP
+// 2. MEDIUM DESKTOP
+// 3. TABLET DESKTOP
+// 4. DEFAULT MOBILE
+// 5. SMALL MOBILE DESKTOP LANDSCAPE
+// 6. SMALL MOBILE DESKTOP POTRAIT
+// 7. SMALLER MOBILE DESKTOP POTRAIT
+// 8. SMALLER MOBILE DESKTOP LANDSCAPE
+// 9. SOME TABLET (800 px)
+// ===================================
+
+
+
+//
+// // --- 1. LARGE DESKTOP ----------------
+// @media only screen and (min-width:1200px)
+//
+// // --- 2. MEDIUM DESKTOP ----------------
+// @media only screen and (min-width:1024px) and (max-width:1199px)
+//
+// --- 3. TABLET DESKTOP ----------------
+@media only screen and (min-width:768px) and (max-width:1023px)
+  header
+    padding 100px 0
+    min-height 0
+  article
+    padding 45px 0 175px
+
+// --- 4. DEFAULT MOBILE ----------------
+@media only screen and (max-width:767px)
+  nav
+    padding 30px 0 15px
+    a
+      float left
+      margin-bottom 15px
+      display inline-block
+
+  header
+    padding 50px 0
+    min-height 0
+
+  article
+    width 100%
+
+    span.highlight
+      padding 0 7px
+
+  section#thanks
+    padding 50px 0
+
+// // --- 5. SMALL MOBILE DESKTOP LANDSCAPE ----------------
+// @media only screen and (width:640px)
+//
+// // --- 6. SMALL MOBILE DESKTOP POTRAIT ----------------
+// @media only screen and (max-width:360px)
+//
+// // --- 7. SMALLER MOBILE DESKTOP POTRAIT ----------------
+// @media only screen and (max-width:320px)
+//
+// // --- 8. SMALLER MOBILE DESKTOP LANDSCAPE ----------------
+// @media only screen and (width:480px)
+//
+// --- 9. SOME TABLET (800 px) ----------------
+// @media only screen and (width:800px)
