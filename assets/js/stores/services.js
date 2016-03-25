@@ -64,21 +64,6 @@ export default {
             ]
           },
           {
-            name: "Book And Pen",
-            img: './assets/img/hi-tech-toys-2.jpg',
-            price: 150000,
-            stocks: [
-              { color: "brown", stock: 150 },
-              { color: "silver", stock: 15 },
-            ],
-            liked: false,
-            detail: "<p>This is the details of the Iphone, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-            categories: [ 'accessories' ],
-            comments: [
-              { content: "Bukunya Elegan! Saya suka dengan Warnanya" },
-            ]
-          },
-          {
             name: "Flatty Phone With Earphone",
             img: './assets/img/mobile-2.jpg',
             price: 7500000,
