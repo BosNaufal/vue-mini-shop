@@ -7,6 +7,10 @@
 
 
 <script>
+
+  import assign from '../../../../node_modules/babelify/node_modules/lodash/object/assign.js';
+  global.assign = assign
+
 	export default {
 
 		props: {
@@ -38,7 +42,7 @@
 			},
 
 			bindedClasses(){
-				let clean = JSON.parse(JSON.stringify(this.bindClass));
+				let clean = assign({},this.bindClass,{});
 
 				let binded = clean;
 				let keys = Object.keys(clean);
