@@ -23,7 +23,7 @@ div
 <script>
 
   // Import the library
-  import Vue from '../libs/vue.js'
+  import Vue from 'vue'
 
   // Import Plugin
   import readableNumber from '../libs/vue-readable-number.js';

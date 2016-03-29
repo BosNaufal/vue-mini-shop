@@ -38,7 +38,7 @@
 			},
 
 			bindedClasses(){
-				let clean = Object.assign({},this.bindClass,{});
+				let clean = JSON.parse(JSON.stringify(this.bindClass));
 
 				let binded = clean;
 				let keys = Object.keys(clean);
