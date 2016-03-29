@@ -1,6 +1,6 @@
 
 // Import Vue Router
-import Vue from '../libs/vue.js';
+import Vue from 'vue';
 import VueRouter from '../libs/vue-router.min.js';
 
 // import components
@@ -23,7 +23,7 @@ import services from '../stores/services.js';
   // Make new VueRouter Instance
   Vue.use(VueRouter)
   let router = new VueRouter()
-  
+
   // Make it global
   global.router = router
 

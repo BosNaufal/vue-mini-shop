@@ -1,6 +1,6 @@
 
 // Import the library
-import Vue from '../libs/vue.js'
+import Vue from 'vue'
 import VueSimpleStore from '../libs/vue-simple-store.js'
 
 // Import All Store Once
