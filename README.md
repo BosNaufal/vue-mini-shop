@@ -5,6 +5,14 @@ Mini Online Shop Built With Vue JS and some of my plugins. It has enough feature
 
 ## [LIVE](https://bosnaufal.github.io/vue-mini-shop)
 
+## Now You can work with it
+```bash
+npm install
+npm run dev
+#or
+gulp
+```
+
 ## Thank You for Making this become useful~
 Hopefully it can be useful for your next projects.
 

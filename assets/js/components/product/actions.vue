@@ -3,7 +3,7 @@
 .actions
   .row
 
-    grid( xs="8" )
+    grid( xs="7" )
 
       button.btn.love(
         class="{{ product.liked ? 'loved' : '' }}"
@@ -24,7 +24,7 @@
             span Facebook
 
     grid(
-      xs="4"
+      xs="5"
       classes="text-right" )
       button.psr.btn.buy( @click="addToCart" ) {{ addToCartClicked ? 'Choose The Color' : 'Add To Cart' }}
 </template>
